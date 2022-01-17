@@ -1,0 +1,30 @@
+<div class="header">
+<div class="search">
+    <br><br><h1>Gif Search</h1><br>
+    <input type="text"  placeholder="What are you looking for?" #gif (blur)="search(gif.value)">    
+    <select name="gif" id="gif">
+        <option value="" disabled selected>Show All</option>
+        <option value="Hello">Hello</option>
+        <option value="Good">Good</option>
+        <option value="Great">Great</option>
+        <option value="Nice">Nice</option>
+      </select>
+      
+      <input type="text" id="text1">
+      
+      
+    <br>
+    <h4>You can search any gif with our search</h4>
+    
+    <h5>Everything you need for your creative projects. websites, banners, presentations, magazines and advertising.</h5>
+    <br><br>
+</div>
+</div>
+<div class="gifs">
+    <div class="gif" *ngFor="let gif of gifs">
+        <img [src]="gif.images.downsized.url" alt="Image">
+    </div>
+</div>
+<app-footer></app-footer>
+<p class="bigp">Affiliates / Contributors / Press/Media / Careers / About / Contact</p>
+<p class="smallp">Copyright @ 2018 myCompany All rights reserved</p>
