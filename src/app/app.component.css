@@ -1,60 +1,54 @@
-p{
-    font-size:xx-large;
+p {
+  font-size: xx-large;
 }
-input[type="text"]{
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    width: 250px;
+input[type='text'] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  width: 250px;
 }
-select{
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color: rgb(236, 234, 232);
-
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: rgb(236, 234, 232);
 }
-#text1{
-    
-    background-image: url('src/assets/download1.png');
-    background-repeat:no-repeat;
-    height: 27px;
-    width: 27px;
-    color: black;
-    cursor: none;
-    cursor: pointer;
-
-    
-    
+#text1 {
+  background-image: url('src/assets/download1.png');
+  background-repeat: no-repeat;
+  height: 27px;
+  width: 27px;
+  color: black;
 }
 
-.header{
-    
-    background-image: linear-gradient(to bottom right, rgba(218, 68, 8, 0.931), rgb(255, 136, 0));
-    text-align: center;
-    color: white;
-    font-size: medium;
+.header {
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(218, 68, 8, 0.931),
+    rgb(255, 136, 0)
+  );
+  text-align: center;
+  color: white;
+  font-size: medium;
 }
-.gif{
-    
-    padding: 1px;
+.gif {
+  padding: 1px;
 }
 
-.gifs{
-    column-count: 3;
-    padding: 1px;
+.gifs {
+  column-count: 3;
+  padding: 1px;
 }
-img{
-    
-    width: 400px;
+img {
+  width: 400px;
 }
-.bigp{
-    font-size: 10px;
-    color: rgb(209, 198, 198);
+.bigp {
+  font-size: 10px;
+  color: rgb(209, 198, 198);
 }
-.smallp{
-    font-size: 7px;
-    color: rgb(209, 198, 198);
+.smallp {
+  font-size: 7px;
+  color: rgb(209, 198, 198);
 }
